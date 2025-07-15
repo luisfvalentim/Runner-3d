@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Runner 3D</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block;
+    }
+
+    #hud {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-size: 24px;
+      font-family: sans-serif;
+      z-index: 1;
+    }
+
+    #gameOver {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      display: none;
+      z-index: 2;
+    }
+
+    #playAgainBtn {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #playAgainBtn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="hud">
+    Pontuação: <span id="score">0</span>
+  </div>
+
+  <div id="gameOver">
+    <h1 style="color: white;">Game Over!</h1>
+    <button id="playAgainBtn">Jogar Novamente</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
