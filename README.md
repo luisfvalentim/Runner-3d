@@ -37,6 +37,37 @@
 
 ---
 
+### 📌 Pré-requisitos
+
+Antes de executar o projeto, certifique-se de que você tem:
+
+- [Node.js](https://nodejs.org/) instalado (versão recomendada: 18+)
+- [npm](https://www.npmjs.com/) (gerenciador de pacotes do Node)
+- Navegador moderno (Chrome, Firefox, Edge...)
+
+> **Importante:** este projeto usa módulos ES6, portanto não funcionará apenas abrindo o HTML diretamente no navegador. É necessário servir os arquivos via servidor local.
+
+---
+
+### ▶️ Passos para rodar localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/luisfvalentim/Runner-3d.git
+   cd Runner-3d
+   
+2. Instale as dependências do projeto:
+   ```bash
+   npm install
+
+4. Inicie o servidor de desenvolvimento com Vite:
+   ```bash
+   npm run dev
+
+6. Abra o navegador e acesse:
+   ```bash
+   http://localhost:5173
+
 ## 🗂 Estrutura do Projeto
 
 ```plaintext
