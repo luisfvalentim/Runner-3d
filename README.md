@@ -1,10 +1,10 @@
-# 🏃 Runner 3D
+#  Runner 3D
 
 **Runner 3D** é um jogo 3D desenvolvido com **WebGL** e a biblioteca **Three.js**, onde o jogador controla um personagem que corre por uma rua, desviando de obstáculos em tempo real. O objetivo é sobreviver o maior tempo possível, acumulando pontos enquanto carros aparecem aleatoriamente no cenário.
 
 ---
 
-## 🎮 Como Jogar
+##  Como Jogar
 
 - Use as **setas do teclado** (⬅️ ➡️) para mover o personagem para os lados.
 - Desvie dos carros que surgem na rua.
@@ -13,21 +13,21 @@
 
 ---
 
-## ✅ Requisitos da Atividade Atendidos
+## Requisitos da Atividade Atendidos
 
 | Critério | Implementado |
 |---------|--------------|
-| 3 tipos de geometrias | ✅ `PlaneGeometry`, `Box3`, geometrias dos modelos `.glb` |
-| 2 tipos de materiais | ✅ `MeshBasicMaterial`, materiais dos modelos carregados |
-| Carregamento de textura | ✅ `sky.jpg` como textura de fundo |
-| 2 fontes de luz | ✅ `DirectionalLight` e `AmbientLight` |
-| Modelo externo | ✅ `Man.glb`, `CAR.glb`, `Street Straight.glb` |
-| Objetos dinâmicos | ✅ Carros gerados dinamicamente em intervalos |
-| Interação com o usuário | ✅ Movimento com teclado e botão de reinício |
+| 3 tipos de geometrias |  `PlaneGeometry`, `Box3`, geometrias dos modelos `.glb` |
+| 2 tipos de materiais |  `MeshBasicMaterial`, materiais dos modelos carregados |
+| Carregamento de textura |  `sky.jpg` como textura de fundo |
+| 2 fontes de luz |  `DirectionalLight` e `AmbientLight` |
+| Modelo externo |  `Man.glb`, `CAR.glb`, `Street Straight.glb` |
+| Objetos dinâmicos |  Carros gerados dinamicamente em intervalos |
+| Interação com o usuário |  Movimento com teclado e botão de reinício |
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [Three.js](https://threejs.org/)
 - WebGL via navegador moderno
@@ -37,7 +37,7 @@
 
 ---
 
-### 📌 Pré-requisitos
+### Pré-requisitos
 
 Antes de executar o projeto, certifique-se de que você tem:
 
@@ -49,7 +49,7 @@ Antes de executar o projeto, certifique-se de que você tem:
 
 ---
 
-### ▶️ Passos para rodar localmente
+### Passos para rodar localmente
 
 1. Clone o repositório:
    ```bash
@@ -68,7 +68,7 @@ Antes de executar o projeto, certifique-se de que você tem:
    ```bash
    http://localhost:5173
 
-## 🗂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```plaintext
 Runner-3D/
