@@ -32,10 +32,31 @@
 - [Three.js](https://threejs.org/)
 - WebGL via navegador moderno
 - Modelos `.glb` (GLTF) com animações
-- Texturas JPG
+- Texturas JPG e PNG
 - HTML5, CSS e JavaScript moderno (`type="module"`)
 
 ---
 
 ## 🗂 Estrutura do Projeto
 
+```plaintext
+Runner-3D/
+├── assets/
+│   ├── models/                    # Modelos 3D (.glb)
+│   │   ├── CAR Model.glb
+│   │   ├── Car.glb
+│   │   ├── cartoon banana car.glb
+│   │   ├── Man.glb
+│   │   ├── Soldier.glb
+│   │   └── Street Straight.glb
+│   └── textures/                 # Texturas usadas no cenário
+│       ├── asphalt_pit_lane_diff_4k.jpg
+│       ├── asphalt_pit_lane_disp_4k.png
+│       └── sky.jpg
+├── node_modules/                 # Dependências instaladas (npm)
+├── src/
+│   └── main.js                   # Código-fonte principal do jogo
+├── index.html                    # Página HTML principal do jogo
+├── package.json                  # Configurações do projeto e dependências
+├── package-lock.json             # Controle de versões exatas do npm
+└── README.md                     # Documentação do projeto
